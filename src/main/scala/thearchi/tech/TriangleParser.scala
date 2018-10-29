@@ -1,5 +1,8 @@
 package thearchi.tech
 
-class TriangleParser {
+object TriangleParser {
+
+  def parse(s: String) = s.trim.split("\\s+").map(_.toInt)
+  def parseString(args: Iterator[String]) = args.map(parse).toArray
 
 }
