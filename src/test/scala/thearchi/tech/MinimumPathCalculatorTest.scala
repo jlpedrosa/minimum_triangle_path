@@ -4,10 +4,12 @@ import org.scalatest.FunSuite
 
 class MinimumPathCalculatorTest extends FunSuite {
 
+
   test("No triangle")
   {
     TestATriangle(Array(), 0)
   }
+
 
   test("One Level tree")
   {
